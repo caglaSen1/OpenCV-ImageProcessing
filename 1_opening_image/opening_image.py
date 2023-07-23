@@ -3,13 +3,13 @@ import cv2
 # Normal Image Name
 img_name = "messi.jpg"
 
-# Import Normal Image
+# Read Normal Image
 img_normal = cv2.imread(img_name)
 
 # Show Normal Image
 cv2.imshow("Normal Image", img_normal)
 
-# Import As Gray Scale
+# Read As Gray Scale
 img_gray = cv2.imread(img_name, 0)  # 0 allows to import as gray scale
 
 # Show Gray Scale Image
