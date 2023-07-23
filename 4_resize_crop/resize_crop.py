@@ -17,6 +17,16 @@ print("Resized img shape: ", img_resized.shape)
 # Crop img
 img_cropped = img[100:400, :300]  # from 100th to 400th pixels on the x-axis(height) and from 0 to 300th pixels on the y-axis(width)
 # Important: Normally it can be thought as [width, height] but in opencv it is [height, width]
+"""
+points (Column, Row) (X, Y)
+0/0 -----X----->
+ |
+ |
+ Y
+ |
+ |
+ v
+"""
 cv2.imshow("Img Cropped", img_cropped)
 print("Cropped img shape: ", img_cropped.shape)
 
