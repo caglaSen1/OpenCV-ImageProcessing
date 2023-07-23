@@ -4,7 +4,7 @@ import time
 # Video path
 video_path = "C:\\Users\\CAGLA\\Desktop\\OpenCV\\OpenCv_image_processing\\2_opening_video\\MOT17-04-DPM.mp4"
 
-# Import video
+# Capture video
 cap = cv2.VideoCapture(video_name)  # cap is frames to come from the video
 
 print("Width: ", cap.get(3))
